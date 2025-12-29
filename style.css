@@ -31,7 +31,7 @@ body::after{
     height:80%;
     background: rgba(255, 255, 255, 0.249);
     border-radius:20px;
-    overflow:hidden;
+    overflow:visible;
 }
 
 nav{
@@ -121,4 +121,5 @@ nav ul li a:hover{
     body::after{
         clip-path:circle(50% at bottom);
     }
+
 }
